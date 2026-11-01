@@ -1,0 +1,56 @@
+{
+  "device_id": "TS001",
+  "simulation": true,
+  "total_samples": 600,
+  "current_status": "NORMAL",
+  "sensor_identity": "SENSOR_OK",
+  "equipment_state": "OFF",
+  "events": [
+    {
+      "scenario": "NORMAL_BASELINE",
+      "total_samples": 120,
+      "layer1_passed": true,
+      "layer2_passed": true,
+      "status": "PASS"
+    },
+    {
+      "scenario": "PLAUSIBLE_EQUIPMENT_EVENT",
+      "total_samples": 120,
+      "layer1_passed": true,
+      "layer2_passed": true,
+      "status": "PASS"
+    },
+    {
+      "scenario": "SUSPICIOUS_GAS_EVENT",
+      "total_samples": 120,
+      "layer1_passed": true,
+      "layer2_passed": true,
+      "status": "PASS"
+    },
+    {
+      "scenario": "SENSOR_REPLACEMENT",
+      "total_samples": 120,
+      "layer1_passed": true,
+      "layer2_passed": true,
+      "status": "PASS"
+    },
+    {
+      "scenario": "RECOVERY_NORMAL",
+      "total_samples": 120,
+      "layer1_passed": true,
+      "layer2_passed": true,
+      "status": "PASS"
+    }
+  ],
+  "latest_reading": {
+    "device_id": "TS001",
+    "timestamp": 1792688879,
+    "gas_ppm": 0.999,
+    "power_mW": 0.0,
+    "plausibility": "NORMAL",
+    "fingerprint_status": "SENSOR_OK",
+    "previous_hash": "41e74487491e1cdf6bf69ef543c7066be4de5aeadde2972d7f1af5b6ed5e3e8e",
+    "hash": "c8d6bed8b8fb475df54653becaad500cfcf95f65b51b382dc4ffdf615dc93600"
+  },
+  "chain_verified": true
+}
